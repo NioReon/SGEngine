@@ -1,0 +1,56 @@
+particles
+particle template=qqq
+begin
+  xyz 20 10 10
+  mass 10
+  radius 0.1
+  velocity 0 0 0
+  damping 0.99
+end
+
+particle_loop
+begin
+    template qqq
+    n 100
+    xyz 1 1 1
+end
+
+generators
+gravity
+begin
+    xyz 0 -98 0
+end
+spring
+begin
+  k 1000
+  l 10
+  inf_forcelimit 
+end
+bungee
+begin
+  k 1000
+  l 10
+  inf_forcelimit
+end
+anchored_spring
+begin
+  k 1000
+  l 10
+  inf_forcelimit
+end
+stiff_joint
+begin
+    rest_length 5
+end
+stiff_joint
+begin
+    rest_length 7.0716781
+end
+
+entry
+begin
+    
+    
+    
+    
+end

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2013.07.02 12:06:07.540.pas,C:\Users\Алексей\Documents\RAD Studio\Projects\Unit1.pas=C:\bp7\MyProgs\ShittyVerlett\Main.pas</Transaction>
+    <Transaction>2013.07.02 12:06:07.540.dfm,C:\Users\Алексей\Documents\RAD Studio\Projects\Unit1.dfm=C:\bp7\MyProgs\ShittyVerlett\Main.dfm</Transaction>
+    <Transaction>2013.07.02 12:06:18.425.dproj,C:\Users\Алексей\Documents\RAD Studio\Projects\Project1.dproj=C:\bp7\MyProgs\ShittyVerlett\ShittyVerlett.dproj</Transaction>
+    <Transaction>2013.07.02 12:49:47.458.pas,C:\bp7\MyProgs\ShittyVerlett\SpawnScripts.pas=</Transaction>
+    <Transaction>2013.07.02 15:12:50.370.pas,C:\bp7\MyProgs\ShittyVerlett\Unit1.pas=C:\bp7\MyProgs\ShittyVerlett\PhysicsPartices.pas</Transaction>
+    <Transaction>2013.07.02 15:12:59.467.pas,C:\bp7\MyProgs\ShittyVerlett\PhysicsPartices.pas=C:\bp7\MyProgs\ShittyVerlett\PhysicsParticles.pas</Transaction>
+    <Transaction>2013.07.08 22:39:01.204.pas,C:\bp7\MyProgs\ShittyVerlett\Unit1.pas=C:\bp7\MyProgs\ShittyVerlett\PhysicsMillingtonSolver.pas</Transaction>
+    <Transaction>2013.07.21 19:35:36.404.pas,C:\bp7\MyProgs\ShittyVerlett\Unit1.pas=C:\bp7\MyProgs\ShittyVerlett\GJKCollisions.pas</Transaction>
+    <Transaction>2013.09.06 22:09:02.516.pas,C:\bp7\MyProgs\ShittyVerlett\Unit1.pas=C:\bp7\MyProgs\ShittyVerlett\ShadowCaster.pas</Transaction>
+    <Transaction>2013.09.10 17:48:42.723.pas,C:\bp7\MyProgs\ShittyVerlett\ShadowCaster.pas=</Transaction>
+    <Transaction>2013.09.10 17:48:53.479.pas,C:\bp7\MyProgs\ShittyVerlett\Unit1.pas=C:\bp7\MyProgs\ShittyVerlett\ShadowCaster.pas</Transaction>
+    <Transaction>2013.09.19 23:03:14.075.pas,C:\bp7\MyProgs\ShittyVerlett\Unit1.pas=C:\bp7\MyProgs\ShittyVerlett\CameraNew.pas</Transaction>
+    <Transaction>2013.09.20 14:24:59.463.pas,C:\bp7\MyProgs\ShittyVerlett\BitmapFonts.pas=</Transaction>
+    <Transaction>2013.09.20 18:39:19.301.pas,C:\bp7\MyProgs\ShittyVerlett\CameraNew.pas=</Transaction>
+  </Transactions>
+</BorlandProject>

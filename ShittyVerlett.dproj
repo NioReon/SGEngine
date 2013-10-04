@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{1e7e2b90-41bb-4912-b6e2-5def22f62726}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <DCC_DCCCompiler>DCC32</DCC_DCCCompiler>
+    <DCC_DependencyCheckOutputName>ShittyVerlett.exe</DCC_DependencyCheckOutputName>
+    <MainSource>ShittyVerlett.dpr</MainSource>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <Version>7.0</Version>
+    <DCC_DebugInformation>False</DCC_DebugInformation>
+    <DCC_LocalDebugSymbols>False</DCC_LocalDebugSymbols>
+    <DCC_SymbolReferenceInfo>0</DCC_SymbolReferenceInfo>
+    <DCC_Define>RELEASE</DCC_Define>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <Version>7.0</Version>
+    <DCC_Define>DEBUG</DCC_Define>
+    <DCC_IntegerOverflowCheck>True</DCC_IntegerOverflowCheck>
+    <DCC_RangeChecking>True</DCC_RangeChecking>
+    <DCC_MapFile>3</DCC_MapFile>
+    <DCC_DebugInfoInExe>True</DCC_DebugInfoInExe>
+    <DCC_DebugVN>True</DCC_DebugVN>
+    <DCC_UnitSearchPath>$(BDS)\lib\Debug;$(BDS)\Lib\Debug\Indy10</DCC_UnitSearchPath>
+    <DCC_ResourcePath>$(BDS)\lib\Debug;$(BDS)\Lib\Debug\Indy10</DCC_ResourcePath>
+    <DCC_ObjPath>$(BDS)\lib\Debug;$(BDS)\Lib\Debug\Indy10</DCC_ObjPath>
+    <DCC_IncludePath>$(BDS)\lib\Debug;$(BDS)\Lib\Debug\Indy10</DCC_IncludePath>
+    <DCC_Description>Shitty Game Engine</DCC_Description>
+    <DCC_SymbolReferenceInfo>2</DCC_SymbolReferenceInfo>
+    <DCC_RemoteDebug>True</DCC_RemoteDebug>
+  </PropertyGroup>
+  <ProjectExtensions>
+    <Borland.Personality>Delphi.Personality</Borland.Personality>
+    <Borland.ProjectType />
+    <BorlandProject>
+<BorlandProject><Delphi.Personality><Parameters><Parameters Name="UseLauncher">False</Parameters><Parameters Name="LoadAllSymbols">True</Parameters><Parameters Name="LoadUnspecifiedSymbols">False</Parameters></Parameters><VersionInfo><VersionInfo Name="IncludeVerInfo">True</VersionInfo><VersionInfo Name="AutoIncBuild">True</VersionInfo><VersionInfo Name="MajorVer">0</VersionInfo><VersionInfo Name="MinorVer">0</VersionInfo><VersionInfo Name="Release">0</VersionInfo><VersionInfo Name="Build">11839</VersionInfo><VersionInfo Name="Debug">True</VersionInfo><VersionInfo Name="PreRelease">False</VersionInfo><VersionInfo Name="Special">False</VersionInfo><VersionInfo Name="Private">False</VersionInfo><VersionInfo Name="DLL">False</VersionInfo><VersionInfo Name="Locale">1049</VersionInfo><VersionInfo Name="CodePage">1251</VersionInfo></VersionInfo><VersionInfoKeys><VersionInfoKeys Name="CompanyName">SlivunTeam</VersionInfoKeys><VersionInfoKeys Name="FileDescription"></VersionInfoKeys><VersionInfoKeys Name="FileVersion">0.0.0.11839</VersionInfoKeys><VersionInfoKeys Name="InternalName"></VersionInfoKeys><VersionInfoKeys Name="LegalCopyright"></VersionInfoKeys><VersionInfoKeys Name="LegalTrademarks"></VersionInfoKeys><VersionInfoKeys Name="OriginalFilename">Game.exe</VersionInfoKeys><VersionInfoKeys Name="ProductName">Shitty Game Engine</VersionInfoKeys><VersionInfoKeys Name="ProductVersion">0.0.0.11745</VersionInfoKeys><VersionInfoKeys Name="Comments"></VersionInfoKeys></VersionInfoKeys><Source><Source Name="MainSource">ShittyVerlett.dpr</Source></Source></Delphi.Personality></BorlandProject></BorlandProject>
+  </ProjectExtensions>
+  <Import Project="$(MSBuildBinPath)\Borland.Delphi.Targets" />
+  <ItemGroup>
+    <DelphiCompile Include="ShittyVerlett.dpr">
+      <MainSource>MainSource</MainSource>
+    </DelphiCompile>
+    <DCCReference Include="Cameras.pas" />
+    <DCCReference Include="dglOpenGL.pas" />
+    <DCCReference Include="FontsNew.pas" />
+    <DCCReference Include="GJKCollisions.pas" />
+    <DCCReference Include="Main.pas">
+      <Form>ShittyGameEngine</Form>
+    </DCCReference>
+    <DCCReference Include="MapStructure.pas" />
+    <DCCReference Include="ParticleForceGen.pas" />
+    <DCCReference Include="ParticleWorldStructure.pas" />
+    <DCCReference Include="PhysicsArifm.pas" />
+    <DCCReference Include="PhysicsContacts.pas" />
+    <DCCReference Include="PhysicsMillingtonSolver.pas" />
+    <DCCReference Include="PhysicsParticles.pas" />
+    <DCCReference Include="PhysicsRigidBody.pas" />
+    <DCCReference Include="PrimitiveCollsTesters.pas" />
+    <DCCReference Include="RigidBodyContacts.pas" />
+    <DCCReference Include="RigidBodyForceGen.pas" />
+    <DCCReference Include="ShadowCaster.pas" />
+    <DCCReference Include="SpawnScripts.pas" />
+    <DCCReference Include="strworks.pas" />
+    <DCCReference Include="Textures.pas" />
+    <DCCReference Include="_Shader.pas" />
+    <DCCReference Include="_StrMan.pas" />
+  </ItemGroup>
+</Project>

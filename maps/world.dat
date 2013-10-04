@@ -1,0 +1,16 @@
+NUMPOLLIES 2
+6 textures
+wall wall.jpg
+floor floor.jpg
+ceiling ceiling.jpg
+roomwall roomwall.jpg
+roomfloor roomfloor.jpg
+roomceiling roomceiling.jpg
+-100 0 -100 0 200
+-100 0 100 0 0
+100 0 100 200 0
+floor
+100 0 -100 200 200
+-100 0 -100 0 200
+100 0 100 200 0
+roomfloor
